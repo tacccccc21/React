@@ -5,7 +5,7 @@
     <title>React</title>
     <script src="https://unpkg.com/react@16/umd/react.development.js">
     </script>
-    <script src="https://unpkg.com/react@16/umd/react-dom.developmemt.js">
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.developmemt.js">
     </script>
   </head>
 
@@ -15,7 +15,7 @@
   <script>
     let dom = document.querySelector('#root');
     let element = React.createElement(
-      'p',{}, 'Hello React!'
+      'p', {}, 'Hello React!'
     );
     ReactDOM.render(element, dom);
   </script>
